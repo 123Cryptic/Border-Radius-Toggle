@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+    height:100vh;
+}
+
+
+
+#box{
+  width: 200px;
+  height: 200px;
+  background:skyblue;
+  
+} 
+
+#box:hover{
+  background:#1f56a7;
+  cursor:pointer;
+}
+
+#input[type=range]{
+  cursor:pointer;
+  display:block;
+}
+
